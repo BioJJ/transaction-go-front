@@ -10,7 +10,6 @@ import { useNotification } from './hooks/useNotification'
 
 import { loginRoutes } from './pages/Signin/routes'
 import { dashboardRoutes } from './pages/Dashboard/routes'
-import { listTransactionType } from './pages/TransactionType/routes'
 import { listTransaction } from './pages/Transaction/routes'
 
 import { ThemeProvider } from 'styled-components'
@@ -22,7 +21,6 @@ import { verifyLoggedIn } from './functions/connections/auth'
 const routes: RouteObject[] = [...loginRoutes]
 const routesLoggedIn: RouteObject[] = [
 	...dashboardRoutes,
-	...listTransactionType,
 	...listTransaction
 ].map((route) => ({
 	...route,

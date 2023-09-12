@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 
 import {
 	MdDashboard,
-	MdArrowDownward,
 	MdArrowUpward,
 	MdExitToApp,
 	MdClose,
@@ -74,12 +73,7 @@ const Aside: React.FC = () => {
 
 				<MenuItemLink href="/list/transaction">
 					<MdArrowUpward />
-					Transactions
-				</MenuItemLink>
-
-				<MenuItemLink href="/list/transaction-type">
-					<MdArrowDownward />
-					Transation Type
+					User
 				</MenuItemLink>
 
 				<MenuItemButton onClick={showModal}>
