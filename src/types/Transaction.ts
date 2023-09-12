@@ -1,5 +1,3 @@
-import { TransactionType } from './TransactionType'
-
 export interface Transaction {
 	id: number
 
@@ -10,6 +8,4 @@ export interface Transaction {
 	value: number
 
 	seller: string
-
-	transactionType: TransactionType
 }
