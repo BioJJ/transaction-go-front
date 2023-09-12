@@ -61,8 +61,8 @@ const Aside: React.FC = () => {
 					{toggleMenuIsOpened ? <MdClose /> : <MdMenu />}
 				</ToggleMenu>
 
-				<LogImg src={logoImg} alt="Transaction Management" />
-				<Title>Transaction Management</Title>
+				<LogImg src={logoImg} alt="Transaction Go" />
+				<Title>Transaction Go</Title>
 			</Header>
 
 			<MenuContainer>
@@ -71,7 +71,7 @@ const Aside: React.FC = () => {
 					Dashboard
 				</MenuItemLink>
 
-				<MenuItemLink href="/list/transaction">
+				<MenuItemLink href="/list/user">
 					<MdArrowUpward />
 					User
 				</MenuItemLink>
